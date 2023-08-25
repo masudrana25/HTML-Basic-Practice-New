@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 2px solid red;
+      /* border-collapse: collapse; */
+      /* border-spacing: 10px; */
+      text-align: center;
+      border-spacing: 20px;
+    }
+
+    th,
+    td {
+      /* background-color: #96D4D4; */
+      /* border-radius: 100px; */
+      padding: 10px;
+      /* border-style: dotted; */
+      /* border-style: inset; */
+    }
+
+    /* tr:nth-child(even) {
+			background-color: #D6EEEE;
+		}
+
+		tr:nth-child(odd) {
+			background-color: red;
+		}
+
+		tr:nth-child(3) {
+			background-color: yellow;
+		} */
+  </style>
+</head>
+
+<body>
+
+  <h1>Table with Advance Style</h1>
+
+  <table>
+    <colgroup>
+      <col span="1" style="background-color: #D6EEEE">
+    </colgroup>
+    <caption>Students List</caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Mobile</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Manis</td>
+        <td>11</td>
+        <td>03497854723589072430</td>
+      </tr>
+      <tr>
+        <td>Manis</td>
+        <td>11</td>
+        <td>03497854723589072430</td>
+      </tr>
+      <tr>
+        <td>Manis</td>
+        <td>11</td>
+        <td>03497854723589072430</td>
+      </tr>
+      <tr>
+        <td colspan="3">Manis</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+  <table>
+    <caption>Students List</caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <td>Manis</td>
+        <td>Anijsixs</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+
+        <th>ID</th>
+        <td>11</td>
+        <td>03497854723589072430</td>
+      </tr>
+      <tr>
+        <th>Mobile</th>
+        <td>45657</td>
+        <td>0349546536356545630</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Dextop</th>
+        <td>2123</td>
+        <td>86744335675</td>
+      </tr>
+      <tr>
+        <td>45657</td>
+        <td>0349546536356545630</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
